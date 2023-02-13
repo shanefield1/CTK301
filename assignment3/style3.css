@@ -1,0 +1,56 @@
+a:link{
+    color: red;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:visited{
+    color: green;
+}
+
+h1{
+    color: red;
+    background-color: black;
+}
+
+h2{
+    color: blue;
+    background-color: crimson;
+}
+
+h3{
+    color: plum;
+    background-color: grey;
+}
+
+p{
+    color: white;
+    background-color: black;
+}
+
+ul{
+    color: white;
+    background-color: black;
+}
+
+.major{
+    color: white;
+    background-color: blueviolet;
+}
+
+#course{
+    color: pink;
+    background-color: brown;
+}
+
+#contact{
+    color: white;
+    background-color: black;
+}
+
+.ital{
+    color: aqua;
+    background-color: darkred;
+}
