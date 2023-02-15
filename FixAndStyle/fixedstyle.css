@@ -1,0 +1,57 @@
+header{
+    background-color: lavender;
+}
+
+h1{
+    color: white;
+}
+
+a:link{
+    color: green;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+h2{
+    color: blue;
+}
+
+.doc{
+    color: orange;
+    font-weight: bold;
+}
+
+h3{
+    color: black;
+    background-color: yellow;
+}
+
+.infernotext{
+    color: red;
+}
+
+h4{
+    color: yellow;
+    background-color: darkgreen;
+}
+
+.fathertext{
+    background-color: lightgreen;
+}
+
+footer{
+    background-color: yellow;
+}
+
+h5{
+    color: red;
+}
+
+.im{
+    color: blue;
+    font-weight: bold;
+}
