@@ -17,13 +17,16 @@ header{
   color: white;
   background-color: gray;
   grid-column:span 12;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Sedgwick Ave Display', cursive;
   padding-left: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px darkorchid;
+  margin-bottom: 24px;
 }
 
 header a{
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Sedgwick Ave Display', cursive;
   color: white;
   font-weight: bold;
 }
@@ -61,10 +64,11 @@ nav li a {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  transition: background-color 1.0s, color 2.0s;
 }
 
 nav li a:hover{
-  background-color: gray;
+  background-color: darkgray;
   color: gold;
 }
 
@@ -89,6 +93,11 @@ main ul{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
   color: white;
+}
+
+section{
+  grid-column: span 12;
+
 }
 
 
