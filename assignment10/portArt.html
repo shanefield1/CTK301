@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Main Page</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+	<link href="portStyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="wrapper">
+        
+        <header>
+			<h1><a href="portMain.html" target="_blank">Shane Fields</a> &nbsp <i class="bi bi-instagram"></i></h1>
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="portArt.html" target="_blank">Art</a></li>
+				<li><a href="#" target="_blank">Audio</a></li>
+				<li><a href="#" target="_blank">About</a></li>
+				<li><a href="#" target="_blank">Contact</a></li>
+			</ul>
+		</nav>
+
+        <h2>Art</h2>
+
+        <div id="myCarousel" class="f-carousel">
+            <div class="f-carousel__slide"><img src="ShaneFields01.png" alt="Houndoom Cerberus at Doorway to Hell"></div>
+            <div class="f-carousel__slide"><img src="myAlastor.png" alt="My Drawing of Alastor from Hazbin Hotel"></div>
+            <div class="f-carousel__slide"><img src="myCharlie.png"alt="My Drawing of Charlie from Hazbin Hotel"></div>
+			<div class="f-carousel__slide"><img src="myHux.png" alt="My Drawing of Hux from Hazbin Hotel"></div>
+			<div class="f-carousel__slide"><img src="myLoona.png" alt="My Drawing of Loona from Hazbin Hotel"></div>
+        </div>
+
+
+    </div>
+
+    <script>
+        const container = document.getElementById("myCarousel");
+        const options = { infinite: false };
+        new Carousel(container, options);
+    </script>
+</body>
+</html>

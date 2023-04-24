@@ -100,6 +100,17 @@ section{
 
 }
 
+#myCarousel {
+  margin-bottom: 24px;
+  grid-column: span 12;
+}
+
+#myCarousel .f-carousel__slide {
+  text-align: center;
+  padding: 24px;
+  background: #eee;
+}
+
 
 /* style for dummy columns, delete and replace with your own CSS */
 .dummycolumn {
